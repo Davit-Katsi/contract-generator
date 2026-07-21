@@ -1,0 +1,17 @@
+node_modules
+.env
+dist
+build
+
+backend/node_modules
+backend/.env
+backend/uploads/*
+!backend/uploads/.gitkeep
+!backend/uploads/cases/.gitkeep
+
+frontend/node_modules
+frontend/.env
+frontend/dist
+
+.DS_Store
+Thumbs.db
